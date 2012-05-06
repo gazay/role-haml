@@ -8,11 +8,11 @@
       };
     }
   }
-  
+
   function overridePrototype(klass){
     for(var i=0; i<methods.length; i++)
       overrideMethod(klass, methods[i]);
   }
-  
+
   overridePrototype(window.Element); overridePrototype(window.Document);
 }(this, ['querySelector', 'querySelectorAll']);
