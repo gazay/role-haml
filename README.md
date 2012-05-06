@@ -7,13 +7,19 @@ Sponsored by [Evil Martians](http://evilmartians.com/).
 `app/views/home/index.html`
 
 ```haml
-%a@some-role@another-role...
+%a@some-role@another-role( href='#' )
+  Hello
+
+@div-role
+  Div Hello
 ```
 
 Will produce:
 
 ```html
-<a role='some-role another-role'...
+<a role='some-role another-role' href='#'>Hello</a>
+
+<div role='div-role'>Div Hello</div>
 ```
 
 ## Install
@@ -26,6 +32,9 @@ In your `Gemfile`:
 
 * [@kossnocorp](http://github.com/kossnocorp)
 * @gazay
+
+Original version of gem for rails you can find here - [role-rails](https://github.com/kossnocorp/role-rails)
+It was written by @kossnocorp, @yury, @rwz, @chrome, @igor-alexadrov, @alno
 
 ## License
 
