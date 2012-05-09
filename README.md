@@ -40,7 +40,7 @@ It was written by @kossnocorp, @yury, @rwz, @chrome, @igor-alexadrov, @alno
 
 MIT (look into repo LICENSE)
 
-# jQuery plagin role readme
+# jQuery plugin role readme
 
 This project uses [Semantic Versioning](http://semver.org/) for release numbering.
 
